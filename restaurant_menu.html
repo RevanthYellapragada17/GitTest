@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dwapara Vaibogham</title>
+    <style>
+      body {
+        background-color: darkslategray;
+        color: white;
+      }
+
+      #title {
+        text-align: center;
+        font-size: 100px;
+      }
+
+      h5 {
+        margin-top: -50px;
+        text-align: center;
+      }
+
+      a {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Dwapara Vaibogham</h1>
+      <h5><i>Authentic Taste in every bite </i></h5>
+      <div style="text-align: center">
+        <img
+          width="250"
+          height="150"
+          id="header-img"
+          src="D:\A Study\HTML\Images for Restaurant\logo.jpeg"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#order-form">Order-Form</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2><u>MENU</u></h2>
+      <section id="menu">
+        <article>
+          <h3>Punugulu</h3>
+          <figure>
+            <img
+              width="200"
+              src="D:\A Study\HTML\Images for Restaurant\punugulu.jpg"
+            />
+            <figcaption>Authentic South Indian Punugulu</figcaption>
+            <p>
+              Punugulu are a popular South Indian snack made from fermented rice
+              and urad dal batter, often leftover from making dosa or idli.<br />
+              These crispy, golden fritters are deep-fried and typically served
+              with coconut chutney or spicy sauces.
+            </p>
+          </figure>
+        </article>
+        <article>
+          <h3>Mirchi Bajji</h3>
+          <figure>
+            <img
+              width="200"
+              src="D:\A Study\HTML\Images for Restaurant\mirchibajji.jpg"
+            />
+            <figcaption>Authentic South Indian Mirchi Bajji</figcaption>
+            <p>
+              Mirchi Bajji is a spicy and crispy South Indian street food made
+              by dipping large green chilies in gram flour batter and deep
+              frying them.<br />
+              Often stuffed with a tangy filling, they are served hot with
+              chutney or as an accompaniment to tea.
+            </p>
+          </figure>
+        </article>
+      </section>
+      <hr />
+      <section id="order-form">
+        <h3>
+          <u> PLACE YOUR ORDER BELOW </u>
+        </h3>
+        <form>
+          Punugulu (Qty): <input type="number" minlength="0" required />
+          <h4>Sides:</h4>
+          Extra Allam Chutney: <input type="checkbox" /> Extra Rasam:<input
+            type="checkbox"
+          />
+          <br /><br />
+          <label for="punugulu">Any Additonal Requirements: </label>
+          <textarea name="punugulu" rows="4" cols="30"></textarea>
+          <br /><br />
+          <input type="submit" value="Go to Checkout" />
+        </form>
+        <br />
+        <hr />
+        <br />
+        <form>
+          Mirchi Bajji: <input type="number" minlength="0" required />
+          <h4>Sides:</h4>
+          Extra Allam Chutney: <input type="checkbox" /> Extra Onions:<input
+            type="checkbox"
+          />
+          <br /><br />
+          <label for="mirchibajji">Any Additonal Requirements: </label>
+          <textarea name="mirchibajji" rows="4" cols="30"></textarea>
+          <br /><br />
+          <input type="submit" value="Go to Checkout" />
+        </form>
+        <br />
+        <hr />
+        <br />
+      </section>
+    </main>
+    <footer>
+      <p>Made with Love by revanthsha28326</p>
+    </footer>
+  </body>
+</html>
