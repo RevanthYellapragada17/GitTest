@@ -4,11 +4,13 @@
   padding: 10px;
   margin-top: 50px;
   text-align: center; /* Centers the links */
+  overflow: hidden;
 }
 
 #hyperlinks ul {
   list-style-type: none; /* Remove bullet points */
   padding: 0;
+  display: inline-block;
 }
 
 #hyperlinks li {
@@ -35,8 +37,9 @@
 }
 
 #hyperlinks a:hover {
-background: linear-gradient(45deg, #ff4b2b, #ff416c); /* Change background on hover */
-transform: scale(1.25); /* Slightly enlarges the link */
+background: linear-gradient(45deg, goldenrod, goldenrod); /* Change background on hover */
+transform: scale(5.1); /* Slightly enlarges the link */
+z-index: 1;
 }
 
 main #menu, #order-form{
@@ -95,8 +98,11 @@ padding: 10px;
   display: inline-block;
 }
 
-h2{
+ h2{
   font-family: Arial Narrow, sans-serif	;
+  background-color: goldenrod;
+  border-radius: 10px;
+  display: inline-flex;
 }
 
 p, h4, input, label{
