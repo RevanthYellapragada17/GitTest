@@ -2,61 +2,75 @@
 <html>
   <head>
     <title>Dwapara Vaibogham</title>
-    <style>
-      body {
-        background-color: darkslategray;
-        color: white;
-      }
-
-      #title {
-        text-align: center;
-        font-size: 100px;
-      }
-
-      h5 {
-        margin-top: -50px;
-        text-align: center;
-      }
-
-      a {
-        color: white;
-      }
-    </style>
+    <link
+      href="D:\A Study\HTML\My Restaurant\restaurant.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1 id="title">Dwapara Vaibogham</h1>
-      <h5><i>Authentic Taste in every bite </i></h5>
-      <div style="text-align: center">
-        <img
-          width="250"
-          height="150"
-          id="header-img"
-          src="D:\A Study\HTML\Images for Restaurant\logo.jpeg"
-        />
+      <div>
+        <h3 id="contact-banner" style="display: flex">
+          <span> Haripuri Colony Road No 02, Hyderabad, India </span>
+          <a href="mailto:revanthshanmukh@gmail.com"
+            >revanthyellapragada@gmail.com</a
+          >
+          <a href="tel:9895728216">Contact Number: 989 555 8282</a>
+        </h3>
       </div>
-      <nav>
+      <div>
+        <img
+          width="200"
+          height="200"
+          id="header-img"
+          src="D:\A Study\HTML\Images for Restaurant\logo.jpg"
+          style="margin-right: 20px; vertical-align: middle"
+        />
+        <h1 id="title" , style="display: inline">Dwapara Vaibogham</h1>
+        <h5><i>Authentic Taste in every bite </i></h5>
+      </div>
+
+      <nav id="hyperlinks">
         <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
           <li>
             <a href="#menu">Menu</a>
           </li>
           <li>
             <a href="#order-form">Order-Form</a>
           </li>
+          <li>
+            <a href="#catering">Catering</a>
+          </li>
+          <li>
+            <a href="#gallery">Catering</a>
+          </li>
+          <li>
+            <a href="#contact-us">Catering</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
+      <section id="about">
+        <h2><u>ABOUT</u></h2>
+        <p>
+          Welcome to the authentic indian street style food where our owner
+          REVANTH YELLAPRAGADA values customers experience
+        </p>
+      </section>
       <h2><u>MENU</u></h2>
       <section id="menu">
         <article>
-          <h3>Punugulu</h3>
+          <h3>1) Punugulu</h3>
           <figure>
             <img
               width="200"
               src="D:\A Study\HTML\Images for Restaurant\punugulu.jpg"
             />
-            <figcaption>Authentic South Indian Punugulu</figcaption>
+            <figcaption><i>Authentic South Indian Punugulu</i></figcaption>
             <p>
               Punugulu are a popular South Indian snack made from fermented rice
               and urad dal batter, often leftover from making dosa or idli.<br />
@@ -66,13 +80,13 @@
           </figure>
         </article>
         <article>
-          <h3>Mirchi Bajji</h3>
+          <h3>2) Mirchi Bajji</h3>
           <figure>
             <img
               width="200"
               src="D:\A Study\HTML\Images for Restaurant\mirchibajji.jpg"
             />
-            <figcaption>Authentic South Indian Mirchi Bajji</figcaption>
+            <figcaption><i>Authentic South Indian Mirchi Bajji</i></figcaption>
             <p>
               Mirchi Bajji is a spicy and crispy South Indian street food made
               by dipping large green chilies in gram flour batter and deep
@@ -97,11 +111,9 @@
           <br /><br />
           <label for="punugulu">Any Additonal Requirements: </label>
           <textarea name="punugulu" rows="4" cols="30"></textarea>
-          <br /><br />
-          <input type="submit" value="Go to Checkout" />
+          <br />
         </form>
         <br />
-        <hr />
         <br />
         <form>
           Mirchi Bajji: <input type="number" minlength="0" required />
@@ -112,13 +124,54 @@
           <br /><br />
           <label for="mirchibajji">Any Additonal Requirements: </label>
           <textarea name="mirchibajjii" rows="4" cols="30"></textarea>
-          <br /><br />
-          <input type="submit" value="Go to Checkout" />
+          <br />
         </form>
         <br />
+        <input type="submit" value="Go to Checkout" />
         <hr />
+
         <br />
       </section>
+      <br>
+      <hr>
+      <br>
+      <section id="catering">
+        <h3><u>Catering</u></h3>
+        <p>
+          please reach us at the contact number and at the top of our banner for
+          more details
+        </p>
+      </section>
+      <br>
+      <hr>
+      <br>
+      <section id="gallery">
+        <h3><u>Gallery</u></h3>
+        <div class="gallery-container">
+          <img
+          width="200"
+          src="D:\A Study\HTML\Images for Restaurant\punugulu.jpg"
+        />
+    <img
+          width="200"
+          src="D:\A Study\HTML\Images for Restaurant\mirchibajji.jpg"
+        />
+        </div>
+        
+      </section>
+      <br/>
+      <hr>
+      <br/>
+      <section id="contact-us"></section>
+      <h3><u>Contact Us</u></h3>
+       <ul>
+        <li>Phone: 989 555 8282</li>
+        <li>Email: revanthyellapragada@gmai;.com</li>
+       </ul>
+      </section>
+      <br/>
+      <hr>
+      <br/>
     </main>
     <footer>
       <p>Made with Love by revanthsha28326</p>

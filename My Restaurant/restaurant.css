@@ -1,0 +1,128 @@
+#hyperlinks {
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center; /* Centers the links */
+}
+
+#hyperlinks ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+#hyperlinks li {
+  display: inline; /* Ensures the items are on one line */
+}
+
+#hyperlinks a {
+  padding: 10px 20px;
+  margin: 0 10px; /* Adds space between the links */
+  background: linear-gradient(45deg, #ff416c, #ff4b2b); /* Button-like gradient */
+  border-radius: 25px;
+  color: white;
+  text-decoration: none; /* Removes underline */
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for button effect */
+  transition: all 0.3s ease;
+}
+#hyperlinks ul {
+  display: inline-block;
+  list-style-type: none; /* Removes bullet points */
+  padding: 15px; /* Removes default padding */
+  text-align: center; /* Centers the list items */
+}
+
+#hyperlinks a:hover {
+background: linear-gradient(45deg, #ff4b2b, #ff416c); /* Change background on hover */
+transform: scale(1.25); /* Slightly enlarges the link */
+}
+
+main #menu, #order-form{
+  display: inline-block;
+  color:white;
+  text-decoration: none; /* Removes the underline */
+  padding: 10px 20px; /* Adds padding inside the link */
+  background: linear-gradient(45deg, black, black); /* Gradient background */
+  border-radius: 25px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  font-size: 18px; /* Adjusts text size */
+  font-weight: bold; /* Bold text */
+  margin-right: 20px; /* Adds space between the links */
+}
+body {
+    background-color:beige;
+    color: black;
+  }
+
+  #title {
+    text-align: center; /* Center the title */
+    font-size: 150px; /* Adjust the font size */
+    font-family: Brush Script MT, Brush Script Std, cursive; /* Use a specific font family */
+    color: transparent; /* Make text color transparent */
+    background: linear-gradient(45deg, black, black); /* Gradient background */
+    -webkit-background-clip: text; /* Clip the background to text */
+    background-clip: text; /* Clip the background to text */
+    padding: 20px; /* Add padding around the text */
+    margin: 20px 0; /* Add margin to separate from other elements */
+    
+}
+
+div #contact-banner{
+  background-color: black;
+  color: white;
+  width: 100%;
+justify-content: space-between;
+border-radius: 10px;
+}
+#contact-banner a{
+  color: white;
+}
+
+  h5 {
+    margin-top: -50px;
+    text-align: center;
+  }
+
+  
+
+
+#header-img {
+  border-radius: 50%; /* Optional: Makes the logo circular */
+  display: inline-block;
+}
+
+h2, h3{
+  font-family: "Bradley Hand", cursive	;
+}
+
+p, h4, input, label{
+font-family: "Apple Chancery", cursive	;}
+
+figcaption{
+  font-size: 13px;
+  font-family: "OCR A Std", monospace		;
+  font-weight: bold;
+}
+
+.gallery-container {
+  display: flex; /* Use flexbox to arrange images */
+  justify-content: center; /* Center the images */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  gap: 20px; /* Space between images */
+  margin-top: 20px; /* Space above the gallery */
+}
+
+.gallery-container img {
+  border-radius: 15px; /* Rounded corners for images */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect for images */
+}
+
+.gallery-container img:hover {
+  transform: scale(3.5); /* Scale up the image on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7); /* Darker shadow on hover */
+  z-index: 1;
+}
