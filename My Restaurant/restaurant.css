@@ -38,7 +38,7 @@
 
 #hyperlinks a:hover {
 background: linear-gradient(45deg, goldenrod, goldenrod); /* Change background on hover */
-transform: scale(5.1); /* Slightly enlarges the link */
+transform: scale(1.1); /* Slightly enlarges the link */
 z-index: 1;
 }
 
@@ -115,7 +115,7 @@ figcaption{
 }
 
 .gallery-container {
-  display: flex; /* Use flexbox to arrange images */
+  display: inline-flexbox; /* Use flexbox to arrange images */
   justify-content: center; /* Center the images */
   flex-wrap: wrap; /* Allow wrapping for smaller screens */
   gap: 20px; /* Space between images */
@@ -129,7 +129,7 @@ figcaption{
 }
 
 .gallery-container img:hover {
-  transform: scale(3.5); /* Scale up the image on hover */
+  transform: scale(2.0); /* Scale up the image on hover */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7); /* Darker shadow on hover */
   z-index: 1;
 }
